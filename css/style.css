@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+  }
+  
+  body {
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #a144c5 0%, #3a083b 98%);
+    color: #fff;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #multiplication-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #333;
+    box-shadow: 9px 11px 12px -7px rgba(27, 27, 27, 1); /* <---adicionada sombra */
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+  }
+    .form-control label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+    .form-control input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: none;
+    width: 50px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+  }
+    .form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+  }
+  
+  .form-control label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .form-control input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: none;
+    width: 50px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #multiplication-form input[type="submit"] {
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    background-color: #db4444;
+    color: #fff;
+    border: 1px solid #db4444;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+
+  #multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #333;
+    box-shadow: 9px 11px 12px -7px rgba(27, 27, 27, 1); /* <---adicionada sombra */
+  }
+  #multiplication-operations .row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+    text-align: center;
+  }
+  #multiplication-operations .row:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #multiplication-operations .result {
+    margin-left: 0.4rem;
+  }
+
+  .dark-mode {
+  background: #222;
+  color: #fff;
+  
+}
+.dark-mode #multiplication-form,
+.dark-mode #multiplication-operations {
+  background: #333;
+  color: #fff;
+}
+#toggle-theme {
+  background-color: rgb(2, 2, 2);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px;
+  cursor: pointer;
+
+}
+
+/* Transição suave para o body e botão */
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#toggle-theme{
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s;
+}
+
+#toggle-theme:active {
+  transform: scale(0.95); /* efeito de "aperto" ao clicar */
+}
+
+/* Tema escuro */
+body.dark-mode {
+  background: linear-gradient(180deg, #111 0%, #222 98%);
+  color: #fff;
+}
+
+body.dark-mode #multiplication-form,
+body.dark-mode #multiplication-operations {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark-mode input,
+body.dark-mode button {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+/*personalizar motivacional*/
+#get-quote{
+  background-color: rgb(2, 2, 2);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px;
+  cursor: pointer;
+
+}
+#get-quote{
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s;
+}
+
+#get-quote:active {
+  transform: scale(0.95); /* efeito de "aperto" ao clicar */
+}
+
+#motivacional-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#motivacional-quote {
+  margin-top: 1rem;
+  background: #fff;
+  color: #333;
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  max-width: 300px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px #7c3aed20;
+  min-height: 40px;
+  transition: backgroud 0.2s;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 9px 11px 12px -7px rgba(27, 27, 27, 1); /* <---adicionada sombra */
+}
+
+#container{
+  background: rgba(255, 255, 255, 0.1); /* fundo branco com 10% de opacidade */
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px); /* efeito de vidro fosco */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 40px auto; 
+}
