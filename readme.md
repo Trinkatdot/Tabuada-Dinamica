@@ -1,40 +1,117 @@
-# Tabuada Dinâmica
-Um aplicativo simples que gera uma tabela de tabuada de multiplicação dinâmica com base nos números fornecidos pelo usuário.
-
+# 🧮Tabuada Dinâmica
+ 
+Bem-vindo ao **Tabuada Dinâmica 2**! Este projeto é uma aplicação web educacional desenvolvida para facilitar o aprendizado da tabuada de forma moderna, interativa e motivadora, com frases inspiradoras e emojis.
+Ideal para estudantes, professores e qualquer pessoa que queira praticar matemática de maneira divertida.
+ 
+---
+ 
+## 📚 Sumário
+ 
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Demonstração Online](#demonstração-online)
+- [Funcionalidades](#funcionalidades)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Como Executar Localmente](#como-executar-localmente)
+- [Como Usar](#como-usar)
+- [Personalização](#personalização)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Autor](#autor)
+ 
+---
+ 
+## Sobre o Projeto
+ 
+O Tabuada Dinâmica foi criado para tornar o estudo da tabuada mais acessível, divertido e motivador.
+A interface é responsiva, utiliza validação de dados, emojis em toda a experiência e frases motivacionais sorteadas de um arquivo local, garantindo funcionamento mesmo sem internet.
+ 
+---
+ 
+## Demonstração Online
+ 
+Acesse a versão publicada em produção pelo Vercel:[https://tabuada-dinamica.vercel.app/]
+ 
+---
+ 
 ## Funcionalidades
-- O usuário pode inserir um número da tabuada desejado.
-- O usuário pode especificar quantas vezes o número da tabuada deve ser multiplicado.
-- Uma tabela de tabuada é gerada dinamicamente com base nas entradas do usuário.
-- A tabela é exibida na página em tempo real.
-
-## Como usar
-1. Clone este repositório para o seu computador: https://github.com/ProfRodolfo/tabuada_dinamica.git
-2. Navegue até o diretório do projeto: cd tabuada-dinamica
-3. Abra o arquivo `index.html` em um navegador da web.
-4. Insira o número da tabuada desejado e a quantidade de vezes que o número deve ser multiplicado nos campos apropriados.
-5. Clique no botão "Calcular" para gerar a tabela de tabuada.
-6. A tabela de tabuada será exibida abaixo do formulário.
-
-## Tecnologias utilizadas
-- HTML
-- CSS
-- JavaScript
-
-## Contribuição
-Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga as etapas abaixo:
-1. Faça um fork deste repositório.
-2. Crie uma branch para a sua contribuição: git checkout -b minha-contribuicao
-3. Faça as alterações desejadas e commit: git commit -m "Minha contribuição"
-4. Envie as alterações para o seu repositório fork: git push origin minha-contribuicao
-5. Abra um pull request neste repositório.
-
-## Suporte
-
-Se você tiver alguma dúvida ou sugestão para melhorar este projeto educacional, sinta-se à vontade para entrar em contato conosco enviando um e-mail para rodolfo.gsilva2@senacpedu.br.
-
+ 
+- ✅ Geração dinâmica da tabuada de qualquer número e limite.
+- ✅ Validação de entradas: apenas inteiros positivos.
+- ✅ Interface moderna, responsiva e colorida.
+- ✅ Frases motivacionais com emojis, sorteadas localmente.
+- ✅ Mensagens de erro e feedbacks amigáveis.
+- ✅ Totalmente em português.
+ 
 ---
-
-Este projeto é destinado apenas para fins educacionais e não está disponível para venda.
-
-Esperamos que este projeto ajude no aprendizado da tabuada de multiplicação. Sinta-se à vontade para personalizar e adaptar este projeto para suas necessidades educacionais.
+ 
+## Estrutura de Pastas
+ 
+TABUADA_DINAMICA2/
+│
+├── css/
+│ └── style.css # Estilos do projeto
+├── js/
+│ └── script.js # Lógica JavaScript da aplicação
+├── frases.json # 50 frases motivacionais com emojis
+├── index.html # Página principal
+└── readme.md # Este arquivo
+ 
+ 
 ---
+## Como Executar Localmente
+ 
+> **Importante:** Para funcionamento correto do `frases.json`, utilize um servidor local.
+ 
+1. Clone ou baixe este repositório:
+ 
+---
+git clone [https://github.com/Trinkatdot/Tabuada-Dinamica]
+ 
+ 
+2. Abra a pasta do projeto no VSCode ou editor de sua preferência.
+3. Execute um servidor local.Recomenda-se a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
+4. Abra o arquivo `index.html` pelo servidor local.
+ 
+---
+ 
+## Como Usar
+ 
+1. Digite o número base da tabuada e até onde deseja multiplicar.
+2. Clique em **Calcular 🚀** ou pressione Enter.
+3. Veja a tabuada gerada com emojis.
+4. Clique em **Frase motivacional ✨** para receber uma mensagem inspiradora aleatória.
+ 
+---
+ 
+## Personalização
+ 
+- **Frases motivacionais:**Edite ou adicione novas frases (com emoji!) no arquivo `frases.json`.
+- **Estilos:**Modifique o visual em `css/style.css`.
+- **Lógica:**
+  Ajuste comportamentos em `js/script.js`.
+ 
+---
+ 
+## Contribuindo
+ 
+Contribuições são bem-vindas!
+Abra um *issue* para sugestões ou *pull request* para melhorias.
+ 
+---
+ 
+## Licença
+ 
+Este projeto está licenciado sob a licença MIT.
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+ 
+---
+ 
+## Autor
+ 
+Desenvolvido por [Agatha Katherine].
+Contato: [agatha.aureliano@gmail.com]
+ 
+---
+ 
+> Projeto educacional para uso livre e incentivo ao aprendizado de programação e matemática.
+> Feito com ❤️ e dedicação.
